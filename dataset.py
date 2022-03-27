@@ -3,6 +3,7 @@ import random
 import cv2
 import os
 
+"""THIS IS LEGACY CODE, SINCE TORCH HAS A COCO DATASET"""
 class CocoDataset(torch.utils.data.Dataset):
     def __init__(self):
         self.images = []
